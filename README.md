@@ -134,7 +134,7 @@ This will create a detailed test report under the `target` directory.
 
 ### Execution Result
 
-![Result](result.png)
+![Result](executionResult.png)
 
 ## Test Structure
 
