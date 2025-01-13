@@ -1,0 +1,3 @@
+# Ignore target directory (commonly used in Java projects)
+target/
+.idea

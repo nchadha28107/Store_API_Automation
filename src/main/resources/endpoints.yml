@@ -1,0 +1,31 @@
+environments:
+  local:
+    base_url: "http://localhost:9090"
+  mock:
+    base_url: "https://mockapi.example.com"
+  qa:
+    base_url: "https://qa-api.example.com"
+
+auth:
+  register: "/api/v1/auth/register"
+  login: "/api/v1/auth/login"
+  logout: "/api/v1/auth/logout"
+
+products:
+  list: "/api/v1/products"
+  create: "/api/v1/products"
+  delete: "/api/v1/products/"
+
+reviews:
+  list: "/api/v1/reviews"
+  getById: "/api/v1/reviews/"
+  create: "/api/v1/reviews"
+  update: "/api/v1/reviews/"
+  delete: "/api/v1/reviews/"
+
+orders:
+  list: "/api/v1/orders"
+  getById: "/api/v1/orders/"
+  create: "/api/v1/orders"
+  update: "/api/v1/orders/"
+  delete: "/api/v1/orders/"
